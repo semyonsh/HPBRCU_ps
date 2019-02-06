@@ -20,15 +20,21 @@ HPBRP Silent Mode is accessed through the “-s” command line switch.
 4)	Access HPBRP Reporting Log for downstream reporting
 ### HPBRP Reporting Log
 HPBRP reporting is a XML report log output into the current directory the application was executed in.  A reporting log will only be generated if the application is executed in silent mode.  Once silent mode app process is complete an XML file is generated.  The XML will be named in the format “SN_Timestamp.XML” and in the case we are unable to read or determine the SN or SN format is unknown we will record the file as “BatterRecallValidationReport_Timestamp.XML”
+
 SN = System Serial Number
- i.e. CC#########
+
+i.e. CC#########
 
 TimeStamp = System Time Stamp of log file in the format HHMMSS 
+
 where:
-HH = Hour
-MM = Minute
-SS = Second
-Output xml structure:
+
+ HH = Hour
+ MM = Minute
+ SS = Second
+ 
+**Output xml structure:
+```xml
 <HPNotebookBatteryValidationUtility>
   <SystemInfo>
     <ProductName></ProductName>
@@ -48,8 +54,10 @@ Output xml structure:
     <SecondaryBatteryProgramEndDate></SecondaryBatteryProgramEndDate>
   </SystemInfo>
 </HPNotebookBatteryValidationUtility>
+```
 
 ### Example Output XML
+```xml
 <HPNotebookBatteryValidationUtility>
   <SystemInfo>
     <ProductName>HP EliteBook Folio 9470m</ProductName>
@@ -73,6 +81,7 @@ Output xml structure:
     </SecondaryBatteryProgramEndDate>
   </SystemInfo>
 </HPNotebookBatteryValidationUtility>
+```
 
 ### Execute remotely
 
