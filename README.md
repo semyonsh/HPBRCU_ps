@@ -30,10 +30,12 @@ TimeStamp = System Time Stamp of log file in the format HHMMSS
 where:
 
  HH = Hour
+ 
  MM = Minute
+ 
  SS = Second
  
-**Output xml structure:
+**Output xml structure:**
 ```xml
 <HPNotebookBatteryValidationUtility>
   <SystemInfo>
