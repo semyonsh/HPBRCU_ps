@@ -5,7 +5,7 @@ Details of recall: https://batteryprogram687.ext.hp.com/en-US/
 
 **Edit 6/10/2019:** There are more efficient ways to distribute the battery check and get results through SCCM and Kaseya (If deployed in your environment). 
 
-See these threads for an SCCM implementation: https://jameswassinger.com/using-sccm-to-run-the-hp-battery-recall-utility, https://jameswassinger.com/using-sccm-to-run-the-hp-battery-recall-utility
+See these threads for an SCCM implementation: https://jameswassinger.com/using-sccm-to-run-the-hp-battery-recall-utility, https://www.reddit.com/r/SCCM/comments/7xu2a1/hp_battery_recall_utility_restricted_environment/
 
 Or this thread for a Kaseya implementation: http://community.kaseya.com/xsp/f/114/t/24581.aspx
 
